@@ -35,15 +35,15 @@ edYoda_assignment
 8. Deleted Vote Pod, worker pod and DB pod respectively using below command
    kubectl delete pod podName
    
-9. Deleting vote pod restarted the vote container. Applications(Vote and Result) are working fine able to cast vote and updated result is reflecting in result app.
+9. Deleting vote pod, new the vote pod created. Applications(Vote and Result) are working fine able to cast vote and updated result is reflecting in result app.
    ![image](https://github.com/user-attachments/assets/8f3c446f-4649-49db-84c4-b6a73ecf83e8)
    ![image](https://github.com/user-attachments/assets/6dc4a9c1-0d74-43bf-9d69-60e313f08dcf)
 
-   Deleting worker pod, restarted worker container.  Applications(Vote and Result) working fine able to cast vote and updated result is reflecting in result app.
+   Deleting worker pod, new worker pod created.  Applications(Vote and Result) working fine able to cast vote and updated result is reflecting in result app.
    ![image](https://github.com/user-attachments/assets/bf785ccf-c18f-4ccf-ba2d-0083c834152c)
    ![image](https://github.com/user-attachments/assets/42730b67-b6ab-4548-8e4f-5e5f533f997a)
 
-10. Deleting db pod, restarted DB container and result conatiner as well because result pod restarted itself to establish connection with new conatiner of DB.   
+10. Deleting db pod, restarted DB container and result conatiner as well to establish connection with new DB container.   
    Applications(Vote and Result) working fine able to cast vote and updated result is reflecting in result app.
    ![image](https://github.com/user-attachments/assets/b0c4fbcd-2e6d-4af4-88bb-76c5b88cba6c)
 
