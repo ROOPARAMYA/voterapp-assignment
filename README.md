@@ -10,8 +10,8 @@ edYoda_assignment
      
    - listed files/ foleder present under example-voting-app  (CMD -> ls)
      
-     LICENSE      README.md         docker-compose-javaworker.yml  docker-compose.yml  dockercloud.yml     **result**  **worker**
-     MAINTAINERS  architecture.png  docker-compose-simple.yml      docker-stack.yml    k8s-specifications  **vote**
+     LICENSE,  README.md,  docker-compose-javaworker.yml,  docker-compose.yml,  dockercloud.yml,    **result**,  **worker**
+     MAINTAINERS, architecture.png, docker-compose-simple.yml, docker-stack.yml, k8s-specifications, **vote**
      
    - moved inside vote and analyzed docker config, app.py logic to get vote from user and communitcate same to redis, index.html code to render view of casting vote between         cats and Dogs.
      
