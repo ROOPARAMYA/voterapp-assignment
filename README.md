@@ -4,9 +4,12 @@ edYoda_assignment
 2. Cloned voter app code from github by executing below command
    git clone https://github.com/ashishrpandey/example-voting-app
 
-   - moved to example-voting-app 
+   - moved to example-voting-app
+     
      cd  /root/example-voting-app/
+     
    - listed files/ foleder present under example-voting-app  (CMD -> ls)
+     
      LICENSE      README.md         docker-compose-javaworker.yml  docker-compose.yml  dockercloud.yml     **result**  **worker**
      MAINTAINERS  architecture.png  docker-compose-simple.yml      docker-stack.yml    k8s-specifications  **vote**
      
