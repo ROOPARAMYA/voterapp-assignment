@@ -60,4 +60,33 @@ edYoda_assignment
 10. Deleting db pod, restarted DB container and result conatiner as well to establish connection with new DB container.   
    Applications(Vote and Result) working fine able to cast vote and updated result is reflecting in result app.
    ![image](https://github.com/user-attachments/assets/b0c4fbcd-2e6d-4af4-88bb-76c5b88cba6c)
-11. 
+11.  your comment on WHY result app STOPPED working after db pod stop
+
+After deleting db pod, Result pod got immediate restart.
+After restarted result pod, Result application hold the Image data --Continer inside the Result pod.
+
+
+your answer to HOW YOU MADE THE RESULT POD work.
+
+Result pod is created using the deployment. 
+if the result pod is deleted , it will create the pod based on replicas number which is mentioned in result deployment config.
+
+Result application will hold image data until manual refresh happen for voter application.
+Result application will hold the latest data after refresh the Voter application.
+
+
+Some jargons (just names are enough- dont need sentences) that you learnt from the  Training session
+Containerization
+micro service 
+dOcker
+Pod
+replica set
+daemon set
+services
+deployment
+Volumes
+node port
+Stateful set
+hemlcharts
+Networking
+types of isolations
